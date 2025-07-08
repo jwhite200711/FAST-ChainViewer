@@ -221,5 +221,9 @@ elseif ~isempty(strfind(load_path, 'SNK29'))
     data_path = ['E:\EPhys\SNK29\'];
     url_path = valemax_url;
     blob_path = [blob_SW 'A046/'];     
+elseif ~isempty(strfind(load_path, 'SNK40'))
+    data_path = 'C:\Users\jew052\Desktop\SNK40\';
+    url_path = valemax_url;
+    blob_path = [blob_SW 'A046/'];
 end
 
